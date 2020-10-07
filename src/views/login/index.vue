@@ -31,7 +31,7 @@
           :key="passwordType"
           ref="password"
           v-model="loginForm.password"
-          :type="passwordType"
+          :type="text"
           placeholder="请输入你的密码"
           name="password"
           tabindex="2"
